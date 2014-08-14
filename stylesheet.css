@@ -1,0 +1,128 @@
+/* header */
+
+.header ul {
+	margin: 0 auto;
+	float: right;
+} 
+
+.header li {
+	margin: 10px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.header a {
+	color: #404040;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+}
+
+.apps {
+	background-image: url("https://ssl.gstatic.com/gb/images/v1_2e543709.png");
+	background-position: -50px -450px;
+	position: absolute;
+	right: 151px;
+	top: 1px;
+	width: 30px;
+	height: 30px;
+}
+
+
+/* main content */
+
+.main_content {
+	clear: both;
+}
+
+
+#logo {
+	display: block;
+	margin: 0 auto;
+	padding-top: 200px;
+	width: 269px;
+	height: 95px;
+}
+
+
+
+#search_bar input[type='text'] {
+	padding-right: 20px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	width: 523px;
+	height: 25px;
+	background: url("mic.gif") no-repeat ;
+	background-size: 14px 19px;
+	background-position-x: 99%;
+	background-position-y: 50%;
+	border: 1px solid #C8DADA;
+}
+
+
+.buttons {
+	text-align: center;
+}
+
+.buttons input[type='submit'] {
+	background-color: #F3F3F3;
+	border: solid 1px;
+	border-color: #C8DADA;
+	height: 27px;
+	color: #444;
+	text-align: center;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 11px;
+}
+
+/* footer */
+
+footer {
+	bottom: 0;
+	position: absolute;
+	background: #f2f2f2;
+	width: 100%;
+	line-height: 40px;
+}
+
+.bl_links {
+	margin: 0 auto;
+	float: left;
+}
+
+.bl_links li{
+	
+	display: inline-block;
+	bottom: 0;
+}
+
+.bl_links a{
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: #666666;
+	margin-left: 25px;
+	
+}
+
+
+.br_links {
+	margin: 0 auto;
+	float: right;
+}
+
+.br_links li {
+	display: inline-block;
+}
+
+.br_links a{
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: #666666;
+	margin-right: 25px;
+	
+}
